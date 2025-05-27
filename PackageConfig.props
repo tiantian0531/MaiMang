@@ -1,0 +1,17 @@
+<Project>
+	<PropertyGroup>
+		<TargetFrameworks>net8.0</TargetFrameworks>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Version>0.0.1</Version>
+		<Description>
+			一个好用的工具库
+		</Description>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<PackageOutputPath>../../nupkgs</PackageOutputPath>
+		<Product>maimang</Product>
+		<Company>maimang</Company>
+		<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+		<RepositoryUrl></RepositoryUrl>
+		<PackageProjectUrl>https://github.com/tiantian0531/MaiMang.git</PackageProjectUrl>
+	</PropertyGroup>
+</Project>
