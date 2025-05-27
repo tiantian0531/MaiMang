@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaiMangCore", "src\MaiMangCore\MaiMangCore.csproj", "{96B81EBC-B388-4591-A7C3-E7B9E8B393F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaiMangCore", "src\MaiMangCore\MaiMangCore.csproj", "{96B81EBC-B388-4591-A7C3-E7B9E8B393F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaiMangKit", "src\MaiMangKit\MaiMangKit.csproj", "{79235A5D-7BC7-4733-8DE9-63B1341C4FF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaiMangKit", "src\MaiMangKit\MaiMangKit.csproj", "{79235A5D-7BC7-4733-8DE9-63B1341C4FF6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1C2E4812-6754-4EE2-B629-7DDA29371A43}"
 	ProjectSection(SolutionItems) = preProject
@@ -13,9 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		PackageConfig.props = PackageConfig.props
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "test\Test\Test.csproj", "{A7994545-87A4-42FE-9E50-C93D688A4C5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "test\Test\Test.csproj", "{A7994545-87A4-42FE-9E50-C93D688A4C5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaiMangAnalyzer", "src\MaiMangAnalyzer\MaiMangAnalyzer.csproj", "{8C3ABC0D-2D52-4120-9BBC-94F50D8509B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaiMangAnalyzer", "src\MaiMangAnalyzer\MaiMangAnalyzer.csproj", "{8C3ABC0D-2D52-4120-9BBC-94F50D8509B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

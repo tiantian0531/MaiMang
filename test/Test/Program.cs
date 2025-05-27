@@ -1,4 +1,5 @@
 ﻿using MaiMangKit.Proxy;
+using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 
 namespace Test
@@ -70,6 +71,11 @@ namespace Test
         //{
         //    await Task.Delay(1000);
         //}
+
+        [SuppressMessage("Naming", "MMSTYLE001")]
+        public void a() { }
+        //public void a1() { }
+
 
     }
 
