@@ -1,10 +1,9 @@
 <Project>
 	<PropertyGroup>
-		<TargetFrameworks>net8.0</TargetFrameworks>
 		<ImplicitUsings>enable</ImplicitUsings>
-		<Version>0.0.1</Version>
+		<Version>0.0.2</Version>
 		<Description>
-			一个好用的工具库
+			tools
 		</Description>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<PackageOutputPath>../../nupkgs</PackageOutputPath>

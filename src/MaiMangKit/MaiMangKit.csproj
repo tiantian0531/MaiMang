@@ -1,9 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<Import Project="..\..\PackageConfig.props" />
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <TargetFrameworks>net8.0;net7.0</TargetFrameworks>
   </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Pub\" />
+  </ItemGroup>
 
 </Project>

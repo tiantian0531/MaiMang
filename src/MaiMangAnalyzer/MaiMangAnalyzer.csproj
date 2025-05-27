@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+	  <TargetFrameworks>netstandard2.0</TargetFrameworks>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+	  <EnableNETAnalyzers>True</EnableNETAnalyzers>
+	  <Version>0.0.2</Version>
+	  <Description>
+		  Analyzer
+	  </Description>
+	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
+	  <PackageOutputPath>../../nupkgs</PackageOutputPath>
+	  <Product>maimang</Product>
+	  <Company>maimang</Company>
+	  <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+	  <RepositoryUrl></RepositoryUrl>
+	  <PackageProjectUrl>https://github.com/tiantian0531/MaiMang.git</PackageProjectUrl>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.CodeAnalysis.Common" Version="4.1.0" />
+		<PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.1.0" />
+	</ItemGroup>
+</Project>

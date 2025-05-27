@@ -9,8 +9,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaiMangKit", "src\MaiMangKi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1C2E4812-6754-4EE2-B629-7DDA29371A43}"
 	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
 		PackageConfig.props = PackageConfig.props
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "test\Test\Test.csproj", "{A7994545-87A4-42FE-9E50-C93D688A4C5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaiMangAnalyzer", "src\MaiMangAnalyzer\MaiMangAnalyzer.csproj", "{8C3ABC0D-2D52-4120-9BBC-94F50D8509B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +31,14 @@ Global
 		{79235A5D-7BC7-4733-8DE9-63B1341C4FF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79235A5D-7BC7-4733-8DE9-63B1341C4FF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79235A5D-7BC7-4733-8DE9-63B1341C4FF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7994545-87A4-42FE-9E50-C93D688A4C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7994545-87A4-42FE-9E50-C93D688A4C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7994545-87A4-42FE-9E50-C93D688A4C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7994545-87A4-42FE-9E50-C93D688A4C5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C3ABC0D-2D52-4120-9BBC-94F50D8509B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C3ABC0D-2D52-4120-9BBC-94F50D8509B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C3ABC0D-2D52-4120-9BBC-94F50D8509B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C3ABC0D-2D52-4120-9BBC-94F50D8509B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
