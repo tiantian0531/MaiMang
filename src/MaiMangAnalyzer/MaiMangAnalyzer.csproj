@@ -4,7 +4,7 @@
 	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	  <IsRoslynComponent>true</IsRoslynComponent>
 	  <PackageId>MaiMangAnalyzer</PackageId>
-	  <Version>0.0.3-alpha</Version>
+	  <Version>0.0.3-alpha1</Version>
 	  <BuildProjectReferences>false</BuildProjectReferences>
 
 	  <!--<EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
